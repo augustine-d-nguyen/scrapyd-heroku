@@ -62,5 +62,6 @@ Twisted = "==20.3.0"
 CacheControl = "==0.12.6"
 Django = "==3.1.6"
 Pillow = "==8.1.0"
+aha-scrapyd = "*"
 
 [dev-packages]

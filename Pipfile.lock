@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "cbef08abf75ad623ff2f10f65b95f49d4b76d24c1fe18683a311f4df8e96d029"
+            "sha256": "2c15843db482d295d249fb881937e92eb603463570122b2515f2c50dd99e3e55"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -14,6 +14,14 @@
         ]
     },
     "default": {
+        "aha-scrapyd": {
+            "hashes": [
+                "sha256:8acc2d883251e223e24d2c6f12c336fe19590e59fac613c1fdca5c2a0e5905bb",
+                "sha256:c7db5d6273b2daa58fddd0fa5b351bd19e8cf7c7afaf0959264aa373d3de710e"
+            ],
+            "index": "pypi",
+            "version": "==1.3.0"
+        },
         "asgiref": {
             "hashes": [
                 "sha256:5ee950735509d04eb673bd7f7120f8fa1c9e2df495394992c73234d526907e17",
@@ -172,6 +180,13 @@
             ],
             "index": "pypi",
             "version": "==3.1.6"
+        },
+        "enum-compat": {
+            "hashes": [
+                "sha256:3677daabed56a6f724451d585662253d8fb4e5569845aafa8bb0da36b1a8751e",
+                "sha256:88091b617c7fc3bbbceae50db5958023c48dc40b50520005aa3bf27f8f7ea157"
+            ],
+            "version": "==0.0.3"
         },
         "firebase-admin": {
             "hashes": [
@@ -664,7 +679,7 @@
                 "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1",
                 "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"
             ],
-            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.4.7"
         },
         "python-dateutil": {
