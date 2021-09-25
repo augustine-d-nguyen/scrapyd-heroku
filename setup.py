@@ -17,7 +17,7 @@ AUTHOR = 'jxltom'
 VERSION = None
 REQUIRES_PYTHON = '>=3.6.0'
 REQUIRED = [
-    'scrapyd'
+    'aha-scrapyd'
 ]
 
 
